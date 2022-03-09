@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About(){
     return(
-        <body>
+        <div className={"mid-section"}>
 
         <h2> About </h2>
 
@@ -12,7 +12,7 @@ export default function About(){
             of the Indian Army, and its professional head is the Chief of Army Staff, who is a four-star general.
         </p>
 
-        </body>
+        </div>
 
     )
 }

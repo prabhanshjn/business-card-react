@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Interest(){
     return(
-        <body>
+        <div className={"mid-section}"}>
 
         <h2> Interests </h2>
 
@@ -12,6 +12,6 @@ export default function Interest(){
             of the Indian Army, and its professional head is the Chief of Army Staff, who is a four-star general.
         </p>
 
-        </body>
+        </div>
     )
 }

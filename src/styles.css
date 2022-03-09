@@ -1,14 +1,20 @@
+#root{
+    margin: 0;
+    background-color: black;
+}
 .app{
-    margin-top: 30px;
+    margin: 0;
     align-items: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #A9A9A9;
+
 }
+
 body{
     margin: 0;
-    background-color: #0b0502;
     color: white;
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -76,7 +82,7 @@ small{
     margin-right: 20px;
 }
 
-body{
+.mid-section{
     margin-top: 40px;
 }
 h2{
@@ -88,6 +94,7 @@ p{
     margin-left: 25%;
     margin-right: 25%;
 
+
 }
 a{
     text-decoration: none;
@@ -96,4 +103,16 @@ a{
     margin: 0;
     margin-left: 0px;
     margin-top: 7px;
+}
+
+.footer{
+    display: inline-flex;
+    margin-right: 25%;
+    margin: 30px;
+    width: 50%;
+    justify-content: space-around;
+}
+.footer>a>img{
+    padding: 10px;
+    width: 50px;
 }
